@@ -1,0 +1,364 @@
+2020-02-05 22:20:55,658 0      [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-02-05 22:20:55,689 31     [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Feb 05 22:20:55 CST 2020]; root of context hierarchy
+2020-02-05 22:20:55,720 62     [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from URL [file:/E:/ideaproject2019/heima_ssm/heima_ssm_web/target/classes/applicationContext.xml]
+2020-02-05 22:20:55,814 156    [ost-startStop-1] ERROR work.web.context.ContextLoader  - Context initialization failed
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Cannot locate BeanDefinitionDecorator for element [advice]
+Offending resource: URL [file:/E:/ideaproject2019/heima_ssm/heima_ssm_web/target/classes/applicationContext.xml]
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.fatal(FailFastProblemReporter.java:62)
+	at org.springframework.beans.factory.parsing.ReaderContext.fatal(ReaderContext.java:90)
+	at org.springframework.beans.factory.parsing.ReaderContext.fatal(ReaderContext.java:68)
+	at org.springframework.beans.factory.xml.NamespaceHandlerSupport.findDecoratorForNode(NamespaceHandlerSupport.java:125)
+	at org.springframework.beans.factory.xml.NamespaceHandlerSupport.decorate(NamespaceHandlerSupport.java:101)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateIfRequired(BeanDefinitionParserDelegate.java:1404)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1390)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.decorateBeanDefinitionIfRequired(BeanDefinitionParserDelegate.java:1370)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.processBeanDefinition(DefaultBeanDefinitionDocumentReader.java:307)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseDefaultElement(DefaultBeanDefinitionDocumentReader.java:196)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:175)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:148)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:98)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:507)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:335)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:303)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:187)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:194)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:133)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:620)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:521)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:409)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:291)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-05 22:20:55,861 203    [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Closing Root WebApplicationContext: startup date [Wed Feb 05 22:20:55 CST 2020]; root of context hierarchy
+2020-02-05 22:25:21,071 0      [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-02-05 22:25:21,102 31     [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Feb 05 22:25:21 CST 2020]; root of context hierarchy
+2020-02-05 22:25:21,118 47     [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from URL [file:/E:/ideaproject2019/heima_ssm/heima_ssm_web/target/classes/applicationContext.xml]
+2020-02-05 22:25:21,368 297    [ost-startStop-1] WARN  .mapper.ClassPathMapperScanner  - No MyBatis mapper was found in '[com.js.dao]' package. Please check your configuration.
+2020-02-05 22:25:21,368 297    [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-02-05 22:25:21,524 453    [ost-startStop-1] INFO         com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2020-02-05 22:25:21,555 484    [ost-startStop-1] INFO  m.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2020-02-05 22:25:21,790 719    [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 719 ms
+2020-02-05 22:25:21,805 734    [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-02-05 22:25:21,805 734    [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Feb 05 22:25:21 CST 2020]; parent: Root WebApplicationContext
+2020-02-05 22:25:21,805 734    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [spring-mvc.xml]
+2020-02-05 22:25:21,915 844    [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-02-05 22:25:21,946 875    [ost-startStop-1] WARN  pport.XmlWebApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productController' defined in file [E:\ideaproject2019\heima_ssm\heima_ssm_web\target\classes\com\js\controller\ProductController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.js.controller.ProductController] from ClassLoader [WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@18b4aac2]
+]
+2020-02-05 22:25:21,946 875    [ost-startStop-1] ERROR .web.servlet.DispatcherServlet  - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productController' defined in file [E:\ideaproject2019\heima_ssm\heima_ssm_web\target\classes\com\js\controller\ProductController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.js.controller.ProductController] from ClassLoader [WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@18b4aac2]
+]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:758)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:676)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:642)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:690)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:558)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:499)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:172)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.js.controller.ProductController] from ClassLoader [WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@18b4aac2]
+]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:759)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:691)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:355)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:339)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:298)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1016)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	... 27 more
+Caused by: java.lang.NoClassDefFoundError: Lcom/js/service/IProductService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:754)
+	... 33 more
+Caused by: java.lang.ClassNotFoundException: com.js.service.IProductService
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 37 more
+2020-02-05 22:30:01,129 0      [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-02-05 22:30:01,176 47     [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Wed Feb 05 22:30:01 CST 2020]; root of context hierarchy
+2020-02-05 22:30:01,208 79     [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from URL [file:/E:/ideaproject2019/heima_ssm/heima_ssm_web/target/classes/applicationContext.xml]
+2020-02-05 22:30:01,458 329    [ost-startStop-1] WARN  .mapper.ClassPathMapperScanner  - No MyBatis mapper was found in '[com.js.dao]' package. Please check your configuration.
+2020-02-05 22:30:01,458 329    [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-02-05 22:30:01,629 500    [ost-startStop-1] INFO         com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2020-02-05 22:30:01,661 532    [ost-startStop-1] INFO  m.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2020-02-05 22:30:01,926 797    [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 797 ms
+2020-02-05 22:30:01,957 828    [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-02-05 22:30:01,957 828    [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Wed Feb 05 22:30:01 CST 2020]; parent: Root WebApplicationContext
+2020-02-05 22:30:01,957 828    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [spring-mvc.xml]
+2020-02-05 22:30:02,067 938    [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-02-05 22:30:02,098 969    [ost-startStop-1] WARN  pport.XmlWebApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productController' defined in file [E:\ideaproject2019\heima_ssm\heima_ssm_web\target\classes\com\js\controller\ProductController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.js.controller.ProductController] from ClassLoader [WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@18b4aac2]
+]
+2020-02-05 22:30:02,098 969    [ost-startStop-1] ERROR .web.servlet.DispatcherServlet  - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productController' defined in file [E:\ideaproject2019\heima_ssm\heima_ssm_web\target\classes\com\js\controller\ProductController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.js.controller.ProductController] from ClassLoader [WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@18b4aac2]
+]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:758)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:676)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:642)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:690)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:558)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:499)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:172)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.js.controller.ProductController] from ClassLoader [WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@18b4aac2]
+]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:759)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:691)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:355)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:339)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:298)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1016)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	... 27 more
+Caused by: java.lang.NoClassDefFoundError: Lcom/js/service/IProductService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:754)
+	... 33 more
+Caused by: java.lang.ClassNotFoundException: com.js.service.IProductService
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 37 more
+2020-02-06 10:01:34,414 0      [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-02-06 10:01:34,449 35     [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Thu Feb 06 10:01:34 CST 2020]; root of context hierarchy
+2020-02-06 10:01:34,484 70     [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from URL [file:/E:/ideaproject2019/heima_ssm/heima_ssm_web/target/classes/applicationContext.xml]
+2020-02-06 10:01:34,785 371    [ost-startStop-1] WARN  .mapper.ClassPathMapperScanner  - No MyBatis mapper was found in '[com.js.dao]' package. Please check your configuration.
+2020-02-06 10:01:34,787 373    [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-02-06 10:01:35,010 596    [ost-startStop-1] INFO         com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2020-02-06 10:01:35,049 635    [ost-startStop-1] INFO  m.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2020-02-06 10:01:35,315 901    [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 900 ms
+2020-02-06 10:01:35,342 928    [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-02-06 10:01:35,344 930    [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Thu Feb 06 10:01:35 CST 2020]; parent: Root WebApplicationContext
+2020-02-06 10:01:35,344 930    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [spring-mvc.xml]
+2020-02-06 10:01:35,468 1054   [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-02-06 10:01:35,491 1077   [ost-startStop-1] WARN  pport.XmlWebApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productController' defined in file [E:\ideaproject2019\heima_ssm\heima_ssm_web\target\classes\com\js\controller\ProductController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.js.controller.ProductController] from ClassLoader [WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@18b4aac2]
+]
+2020-02-06 10:01:35,493 1079   [ost-startStop-1] ERROR .web.servlet.DispatcherServlet  - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productController' defined in file [E:\ideaproject2019\heima_ssm\heima_ssm_web\target\classes\com\js\controller\ProductController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.js.controller.ProductController] from ClassLoader [WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@18b4aac2]
+]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:758)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:676)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:642)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:690)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:558)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:499)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:172)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.js.controller.ProductController] from ClassLoader [WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@18b4aac2]
+]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:759)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:691)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:355)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:339)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:298)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1016)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	... 27 more
+Caused by: java.lang.NoClassDefFoundError: Lcom/js/service/IProductService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:754)
+	... 33 more
+Caused by: java.lang.ClassNotFoundException: com.js.service.IProductService
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 37 more
+2020-02-06 10:31:15,443 0      [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization started
+2020-02-06 10:31:15,484 41     [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing Root WebApplicationContext: startup date [Thu Feb 06 10:31:15 CST 2020]; root of context hierarchy
+2020-02-06 10:31:15,516 73     [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from URL [file:/E:/ideaproject2019/heima_ssm/heima_ssm_web/target/classes/applicationContext.xml]
+2020-02-06 10:31:15,751 308    [ost-startStop-1] WARN  .mapper.ClassPathMapperScanner  - No MyBatis mapper was found in '[com.js.dao]' package. Please check your configuration.
+2020-02-06 10:31:15,753 310    [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-02-06 10:31:15,919 476    [ost-startStop-1] INFO         com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2020-02-06 10:31:15,951 508    [ost-startStop-1] INFO  m.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2020-02-06 10:31:16,190 747    [ost-startStop-1] INFO  work.web.context.ContextLoader  - Root WebApplicationContext: initialization completed in 746 ms
+2020-02-06 10:31:16,213 770    [ost-startStop-1] INFO  .web.servlet.DispatcherServlet  - FrameworkServlet 'dispatcherServlet': initialization started
+2020-02-06 10:31:16,214 771    [ost-startStop-1] INFO  pport.XmlWebApplicationContext  - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Thu Feb 06 10:31:16 CST 2020]; parent: Root WebApplicationContext
+2020-02-06 10:31:16,215 772    [ost-startStop-1] INFO  ry.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [spring-mvc.xml]
+2020-02-06 10:31:16,335 892    [ost-startStop-1] INFO  redAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-02-06 10:31:16,357 914    [ost-startStop-1] WARN  pport.XmlWebApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productController' defined in file [E:\ideaproject2019\heima_ssm\heima_ssm_web\target\classes\com\js\controller\ProductController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.js.controller.ProductController] from ClassLoader [WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@18b4aac2]
+]
+2020-02-06 10:31:16,358 915    [ost-startStop-1] ERROR .web.servlet.DispatcherServlet  - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productController' defined in file [E:\ideaproject2019\heima_ssm\heima_ssm_web\target\classes\com\js\controller\ProductController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.js.controller.ProductController] from ClassLoader [WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@18b4aac2]
+]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:758)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:676)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:642)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:690)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:558)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:499)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:172)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.js.controller.ProductController] from ClassLoader [WebappClassLoader
+  context: 
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+ClassRealm[plugin>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2, parent: sun.misc.Launcher$AppClassLoader@18b4aac2]
+]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:759)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:691)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:355)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:339)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:298)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1016)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	... 27 more
+Caused by: java.lang.NoClassDefFoundError: Lcom/js/service/IProductService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:754)
+	... 33 more
+Caused by: java.lang.ClassNotFoundException: com.js.service.IProductService
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1702)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1547)
+	... 37 more
